@@ -12,7 +12,7 @@ Use the package manager **pip** to install foobar.
 
 **import** foolbar
 
-'''python
+'''  python
 
 foobar.pluralize('word')*#return 'word'*
 
