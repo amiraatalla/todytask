@@ -6,13 +6,13 @@ foobar is a Paython library for dealing with word pluralization.
 
 Use the package manager **pip** to install foobar.
 
-'pip install foobar'
+`pip install foobar`
 
 ## Usage
 
 **import** foolbar
 
-'''  python
+```  python
 
 foobar.pluralize('word')*#return 'word'*
 
@@ -20,7 +20,7 @@ foobar.pluralize('goose')*#return 'goose'*
 
 foobar.pluralize('phenomenon')*#return 'phenomenon'*
 
-'''
+```
 ## Contributing
 
 pull regustes are welcome. For major changes,Please open an issue first to discuss what you
