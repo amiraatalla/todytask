@@ -1,0 +1,53 @@
+**********create repo***********
+*create new repo on git hub
+**open terminal
+*create directory / mkdir dirname
+*git clone sshurl
+*cd dirname
+*create file / touch file1
+*git add .
+*git commit -m "updatemsg"
+*git push origin main
+*************** create branch**************
+*
+*create new repo on git hub
+**open terminal
+*create directory / mkdir dirname
+*git clone sshurl
+*cd dirname
+*create file / touch file1
+==>
+*git branch test
+*git branch dev
+*git push origin dev
+*git push origin test
+*git checkout div
+*touch file1 file2
+*git add --all
+*git commit -m "any msg"
+*git push origin dev
+*git branch main
+*git merge dev
+==>delete branch with un merged files
+*git push origin :dev
+*git checkout test
+*git branch -D dev
+==>delete branch with merged files
+*git push origin :dev 
+*git checkout test
+*git branch -d dev
+***********tags**********
+==> create lightweiht tag
+*git tag v1
+==> create annotated tag
+*git tag -a v1 -m "anymsg"
+==>upload tag remotely by 4 ways
+*git push tagname
+*git push --tags 
+*git push origion --follow-tags
+*git tag -a tagname first7numsofchecksum -m "any msg"
+==>delete tag local
+*git tag -d tagname
+==>delete tag remote
+*git push origin --delete tagname
+
